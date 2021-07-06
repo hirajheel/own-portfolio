@@ -15,8 +15,15 @@ h1{
 }
 .half-width{
     width: 50%;
-    padding left: 15%;
+    padding-left: 2%;
+  
 }
+.experience-area{
+    background-image: url(exp.bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
 .half-width img{
     width: 85%;
 }
@@ -38,4 +45,13 @@ h1{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 20%;
+    margin: 5px;
+    border-radius: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    box-shadow: 5px 5px 20px grey;
+    
 }
